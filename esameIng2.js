@@ -1,4 +1,6 @@
-var temp = "This is a string";
-var count = (temp.match(/s/g) || []).length;
+var temp = "Ciao come stai?";
+var count = (temp.match(/c/g) || []).length;
 
 console.log(count);
+
+
